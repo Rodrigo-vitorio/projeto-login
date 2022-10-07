@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: linear-gradient(to top,#49a09d, #5f2c82 );
+    }
+    section#tela{
+        width: 80vw;
+    }
+    section#tela div#img{
+        float: left;
+        height: 100%;
+        width: 30%;
+    }
+    section#tela div#form{
+        float:right;
+        height: 100%;
+        width: 70%;
+    }  
+}
+@media screen and (min-width:992px){
+    
+    body{
+        background-image: linear-gradient(to top,#49a09d, #5f2c82 );
+    }section#tela{
+        width: 950px;   
+    }
+    section#tela div#img{
+        float: left;
+        width: 50%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+        
+    }
+
+}
+    
+
+
+
+
+
+
